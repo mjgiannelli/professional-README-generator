@@ -1,5 +1,5 @@
 
-  # Test Project
+  # Test Title
 
   ## Table of Contents
 
@@ -17,28 +17,30 @@
 
   ## Installation
 
-  test installation steps
+  test install setps
 
   ## Usage
 
-  test usage steps
+  test usage instructions
 
   ## License
 
-  GNU AGPLv3
+  
+  [agpl-3.0](https://choosealicense.com/licenses/agpl-3.0)
+      
 
   ## Contributing
 
-  undefined
+  test contributing guidelines
 
   ## Tests
 
-  test testing steps
+  test testing instructions
 
   ## Questions
 
-  For questions please contact me using the following links:
-  
+  Please contact me using the following links:
+
   [GitHub](https://github.com/mjgiannelli)
-  
+
   [Email: giannelli.mark@gmail.com](mailto:giannelli.mark@gmail.com)
