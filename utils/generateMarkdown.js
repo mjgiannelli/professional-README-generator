@@ -1,21 +1,15 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {
+function renderLicenseBadge(license) { 
   if
     (
-    (license = 'agpl-3.0') ||
-    (license = 'gpl-3.0') ||
-    (license = 'lgpl-3.0') ||
-    (license = 'mpl-2.0') ||
-    (license = 'apache-2.0') ||
-    (license = 'mit') ||
-    (license = 'bsl-1.0')
+    (license = 'agpl') ||
+    (license = 'apache') ||
+    (license = 'mit')
   ) {
     return `
   ![badge](https://img.shields.io/badge/license-${license}-blue)
     `;
-  } else {
-    return '';
   }
 }
 
@@ -24,23 +18,17 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   if
     (
-    (license = 'agpl-3.0') ||
-    (license = 'gpl-3.0') ||
-    (license = 'lgpl-3.0') ||
-    (license = 'mpl-2.0') ||
-    (license = 'apache-2.0') ||
-    (license = 'mit') ||
-    (license = 'bsl-1.0')
+      (license = 'agpl') ||
+      (license = 'apache') ||
+      (license = 'mit')
   ) {
-    return `
+  return `
   ## [License](#table-of-contents)
 
   The application is covered under the following license:
 
   [${license}](https://choosealicense.com/licenses/${license})
     `;
-  } else {
-    return '';
   }
 }
 

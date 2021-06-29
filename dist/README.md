@@ -2,7 +2,7 @@
   # test
   
   
-  ![badge](https://img.shields.io/badge/license-agpl-3.0-blue)
+  ![badge](https://img.shields.io/badge/license-agpl-blue)
     
 
   ## Table-of-Contents
@@ -32,7 +32,7 @@
 
   The application is covered under the following license:
 
-  [agpl-3.0](https://choosealicense.com/licenses/agpl-3.0)
+  [agpl](https://choosealicense.com/licenses/agpl)
     
 
   ## [Contributing](#table-of-contents)

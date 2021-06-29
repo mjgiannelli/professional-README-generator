@@ -101,7 +101,7 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'Which license will you use for your project?',
-        choices: ['agpl-3.0', 'gpl-3.0', 'lgpl-3.0', 'mpl-2.0', 'apache-2.0', 'mit', 'bsl-1.0', 'no license']
+        choices: ['agpl', 'apache', 'mit', 'no license']
     },
     {
         type: 'confirm',
@@ -165,7 +165,7 @@ const writeFile = fileContent => {
 
 // TODO: Create a function to initialize app
 const init = () => {
-    
+
     return inquirer.prompt(questions)
     .then(readmeData => {
         console.log(readmeData);
