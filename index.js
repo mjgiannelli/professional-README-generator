@@ -171,14 +171,3 @@ init()
 .catch(err => {
     console.log(err);
 })
-
-// function renderLicenseLink(license) {
-//     if
-//       (license !== 'no license') {
-//     console.log(`
-//     [${license}](https://choosealicense.com/licenses/${license})
-//       `);
-//     }
-//   }
-
-//   renderLicenseLink('mit');

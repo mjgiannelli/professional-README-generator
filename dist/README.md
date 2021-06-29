@@ -1,14 +1,18 @@
 
   # t
   
-   
+  
+  ![badge](https://img.shields.io/badge/license-agpl-blue)
+    
 
   ## Table-of-Contents
 
   * [Description](#description)
   * [Installation](#installation)
   * [Usage](#usage)
-   
+  
+  * [License](#license)
+    
   * [Contributing](#contributing)
   * [Tests](#tests)
   * [Questions](#questions)
@@ -25,11 +29,21 @@
 
   t
 
-   
+  
+  ## [License](#table-of-contents)
+
+  The application is covered under the following license:
+
+  
+  [agpl](https://choosealicense.com/licenses/agpl)
+    
+    
 
   ## [Contributing](#table-of-contents)
 
-  t
+  
+  test contributing guidelines
+    
 
   ## [Tests](#table-of-contents)
 
