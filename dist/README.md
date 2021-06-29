@@ -9,27 +9,36 @@
   * [License](#license)
   * [Contributing](#contributing)
   * [Tests](#tests)
+  * [Questions](#questions)
   
   ## Description
 
-  test desc
+  test description
 
   ## Installation
 
-  test install instructions
+  test installation steps
 
   ## Usage
 
-  test usage instructions
+  test usage steps
 
   ## License
 
-  Mozilla Public License 2.0
+  GNU AGPLv3
 
   ## Contributing
 
-  test contributing guidelines
+  undefined
 
   ## Tests
 
-  test testing instructions
+  test testing steps
+
+  ## Questions
+
+  For questions please contact me using the following links:
+  
+  [GitHub](https://github.com/mjgiannelli)
+  
+  [Email: giannelli.mark@gmail.com](mailto:giannelli.mark@gmail.com)
