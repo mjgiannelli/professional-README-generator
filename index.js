@@ -165,9 +165,10 @@ const writeFile = fileContent => {
 
 // TODO: Create a function to initialize app
 const init = () => {
-
+    
     return inquirer.prompt(questions)
     .then(readmeData => {
+        console.log(readmeData);
         return readmeData;
     })
 }
@@ -175,9 +176,11 @@ const init = () => {
 // Function call to initialize app
 init()
 .then(readmeData => {
+    console.log(readmeData);
     return generateMarkdown(readmeData);
 })
 .then(pageMD => {
+    console.log(pageMD);
     return writeFile(pageMD);
 })
 .catch(err => {
