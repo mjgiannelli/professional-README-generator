@@ -1,11 +1,12 @@
 {
   "name": "challenge-9-professional-readme-generator",
   "version": "1.0.0",
-  "description": "[How to create a Professional README](./readme-guide.md)",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mjgiannelli/challenge-9-professional-README-generator.git"
