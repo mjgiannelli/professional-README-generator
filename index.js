@@ -101,7 +101,7 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'Which license will you use for your project?',
-        choices: ['GNU AGPLv3', 'GNU GPLv3', 'GNU LGPLv3', 'Mozilla Public License 2.0', 'Apache License 2.0', 'MIT License', 'Boost Software License 1.0', 'Unlicense']
+        choices: ['agpl', 'apache', 'mit', 'no license']
     },
     {
         type: 'confirm',
@@ -168,6 +168,7 @@ const init = () => {
 
     return inquirer.prompt(questions)
     .then(readmeData => {
+        console.log(readmeData);
         return readmeData;
     })
 }
@@ -175,11 +176,24 @@ const init = () => {
 // Function call to initialize app
 init()
 .then(readmeData => {
+    console.log(readmeData);
     return generateMarkdown(readmeData);
 })
 .then(pageMD => {
+    console.log(pageMD);
     return writeFile(pageMD);
 })
 .catch(err => {
     console.log(err);
 })
+
+// function renderLicenseLink(license) {
+//     if
+//       (license !== 'no license') {
+//     console.log(`
+//     [${license}](https://choosealicense.com/licenses/${license})
+//       `);
+//     }
+//   }
+
+//   renderLicenseLink('mit');
