@@ -30,7 +30,7 @@ function generateMarkdown(data) {
   return `
   # ${data.title}
 
-  ## Table of Contents
+  ## Table-of-Contents
 
   * [Description](#description)
   * [Installation](#installation)
@@ -40,31 +40,31 @@ function generateMarkdown(data) {
   * [Tests](#tests)
   * [Questions](#questions)
   
-  ## Description
+  ## [Description](#table-of-contents)
 
   ${data.description}
 
-  ## Installation
+  ## [Installation](#table-of-contents)
 
   ${data.installation}
 
-  ## Usage
+  ## [Usage](#table-of-contents)
 
   ${data.usage}
 
-  ## License
+  ## [License](#table-of-contents)
 
   ${renderLicenseLink(data.license)}
 
-  ## Contributing
+  ## [Contributing](#table-of-contents)
 
   ${data.contribute}
 
-  ## Tests
+  ## [Tests](#table-of-contents)
 
   ${data.test}
 
-  ## Questions
+  ## [Questions](#table-of-contents)
 
   Please contact me using the following links:
 

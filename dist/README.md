@@ -1,7 +1,7 @@
 
   # Test Title
 
-  ## Table of Contents
+  ## Table-of-Contents
 
   * [Description](#description)
   * [Installation](#installation)
@@ -11,7 +11,7 @@
   * [Tests](#tests)
   * [Questions](#questions)
   
-  ## Description
+  ## [Description](#table-of-contents)
 
   test description
 
