@@ -1,52 +1,44 @@
 
-  # test
+  # t
   
-  
-  ![badge](https://img.shields.io/badge/license-agpl-blue)
-    
+   
 
   ## Table-of-Contents
 
   * [Description](#description)
   * [Installation](#installation)
   * [Usage](#usage)
-  * [License](#license)
+   
   * [Contributing](#contributing)
   * [Tests](#tests)
   * [Questions](#questions)
   
   ## [Description](#table-of-contents)
 
-  test
+  t
 
   ## [Installation](#table-of-contents)
 
-  test
+  t
 
   ## [Usage](#table-of-contents)
 
-  test
+  t
 
-  
-  ## [License](#table-of-contents)
-
-  The application is covered under the following license:
-
-  [agpl](https://choosealicense.com/licenses/agpl)
-    
+   
 
   ## [Contributing](#table-of-contents)
 
-  undefined
+  t
 
   ## [Tests](#table-of-contents)
 
-  test
+  t
 
   ## [Questions](#table-of-contents)
 
   Please contact me using the following links:
 
-  [GitHub](https://github.com/test)
+  [GitHub](https://github.com/t)
 
-  [Email: test](mailto:test)
+  [Email: t](mailto:t)
