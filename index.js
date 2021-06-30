@@ -160,7 +160,7 @@ const questions = [
 
 const writeFile = fileContent => {
     return new Promise((resolve, reject) => {
-        fs.writeFile('./dist/README.md', fileContent, err => {
+        fs.writeFile('./dist/generated-README.md', fileContent, err => {
             if (err) {
                 reject(err);
                 return;
