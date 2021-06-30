@@ -168,7 +168,7 @@ const writeFile = fileContent => {
 
             resolve({
                 ok: true,
-                message: 'File created'
+                message: 'File created!'
             });
         });
     });
@@ -179,7 +179,6 @@ const init = () => {
 
     return inquirer.prompt(questions)
     .then(readmeData => {
-        console.log(readmeData);
         return readmeData;
     })
 }
@@ -191,8 +190,10 @@ init()
     return generateMarkdown(readmeData);
 })
 .then(pageMD => {
-    console.log(pageMD);
     return writeFile(pageMD);
+})
+.then(writeFileResponse => {
+    console.log(writeFileResponse.message);
 })
 .catch(err => {
     console.log(err);
