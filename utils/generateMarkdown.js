@@ -82,7 +82,11 @@ function generateMarkdown(data) {
   
   ## [Description](#table-of-contents)
 
-  ${data.description}
+  ${data.what}
+
+  ${data.why}
+
+  ${data.how}
 
   ## [Installation](#table-of-contents)
 
