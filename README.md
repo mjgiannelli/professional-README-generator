@@ -29,6 +29,8 @@
 
   [ZIP file download Tutorial](https://drive.google.com/file/d/1Es77aULk006BU_krKsyRvkA5YwO5_yvE/view)
 
+  [Git Clone download Tutorial](https://drive.google.com/file/d/1i-yD756_Ibe_SUFfAvNI3cTmBkNMfbiq/view)
+
   ## [Usage](#table-of-contents)
 
   After installation is complete, run the following code: ‘node inex.js’ in the terminal. Answer the prompts and after completion, you should see a console log showing your answers to your prompts, a message that says ‘File created!’, and you should see your file under the ‘dist’ folder called ‘generatedREADME’. It’s generated in mark down syntax so you can copy and paste that code into your project!
